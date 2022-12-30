@@ -1,4 +1,4 @@
-from src.interfaces.adapters.browser_interface import BrowserInterface
+from src.ports.browser_interface import BrowserInterface
 
 
 DEFAULT_BATCH_SIZE = 5
