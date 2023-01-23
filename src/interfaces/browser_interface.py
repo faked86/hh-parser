@@ -5,5 +5,5 @@ class BrowserInterface(ABC):
     """Interface to interact with browser adapters."""
 
     @abstractmethod
-    def __iter__(self):
+    async def __aiter__(self):
         pass
